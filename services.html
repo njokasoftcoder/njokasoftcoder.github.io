@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | NyamNyam Inc.</title>
+    <meta name="description" content="Explore NyamNyam Inc.'s comprehensive range of professional services.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Additional styles for services page */
+        .service-detail {
+            margin-bottom: 4rem;
+            padding: 3rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--primary);
+        }
+        
+        .service-detail h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        .service-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .feature-item i {
+            color: var(--success);
+            font-size: 1.2rem;
+            margin-top: 0.2rem;
+        }
+        
+        .pricing-table {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+        }
+        
+        .pricing-tier {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s;
+        }
+        
+        .pricing-tier:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .pricing-tier.popular {
+            border-color: var(--primary);
+            position: relative;
+        }
+        
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">NyamNyam<span class="logo-inc">.Inc</span></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="contact.html" class="btn-nav">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive solutions tailored to your business needs</p>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What We Offer</h2>
+                <p>From strategy to execution, we provide end-to-end solutions that drive results</p>
+            </div>
+
+            <!-- Digital Solutions -->
+            <div class="service-detail" id="digital">
+                <h3>Digital Solutions & Technology</h3>
+                <p>Transform your business with cutting-edge technology solutions designed for scalability, security, and performance.</p>
+                
+                <div class="service-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Custom Software Development</h4>
+                            <p>Tailored applications built to solve your specific business challenges.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Web & Mobile Applications</h4>
+                            <p>Responsive, user-friendly applications for all platforms and devices.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Cloud Migration & DevOps</h4>
+                            <p>Seamless transition to cloud infrastructure with optimized workflows.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>UI/UX Design</h4>
+                            <p>Intuitive interfaces that enhance user experience and engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Strategy -->
+            <div class="service-detail" id="strategy">
+                <h3>Business Strategy & Consulting</h3>
+                <p>Data-driven insights and strategic planning to optimize operations and maximize growth potential.</p>
+                
+                <div class="service-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Market Analysis</h4>
+                            <p>Comprehensive research to identify opportunities and competitive advantages.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Growth Strategy</h4>
+                            <p>Roadmaps for sustainable expansion and market penetration.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Process Optimization</h4>
+                            <p>Streamline operations for maximum efficiency and cost savings.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Digital Transformation</h4>
+                            <p>Guidance through technological change and innovation adoption.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Services -->
+            <div class="service-detail" id="consulting">
+                <h3>Professional Services & Support</h3>
+                <p>Ongoing support and specialized services to maintain your competitive edge.</p>
+                
+                <div class="service-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Technical Support</h4>
+                            <p>24/7 monitoring and maintenance for critical systems.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Training & Development</h4>
+                            <p>Comprehensive training programs for your team.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Project Management</h4>
+                            <p>Expert oversight from conception to delivery.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Compliance & Security</h4>
+                            <p>Ensure regulatory compliance and data protection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Section -->
+            <div class="pricing-table">
+                <h3 style="text-align: center; margin-bottom: 2rem;">Flexible Engagement Models</h3>
+                <div class="service-features">
+                    <div class="pricing-tier">
+                        <h4>Project-Based</h4>
+                        <p><strong>Perfect for:</strong> Specific, well-defined projects</p>
+                        <ul>
+                            <li>Fixed scope & timeline</li>
+                            <li>Clear deliverables</li>
+                            <li>One-time investment</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-tier popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <h4>Retainer Model</h4>
+                        <p><strong>Perfect for:</strong> Ongoing support & maintenance</p>
+                        <ul>
+                            <li>Monthly fixed fee</li>
+                            <li>Priority support</li>
+                            <li>Regular updates</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-tier">
+                        <h4>Custom Enterprise</h4>
+                        <p><strong>Perfect for:</strong> Large-scale transformations</p>
+                        <ul>
+                            <li>Tailored solutions</li>
+                            <li>Dedicated team</li>
+                            <li>Strategic partnership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss which services are right for you and create a custom solution.</p>
+                <a href="contact.html" class="btn btn-cta">
+                    <i class="fas fa-calendar-alt"></i> Schedule Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NyamNyam Inc.</h3>
+                    <p>Delivering excellence through innovation, strategy, and execution.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hello@nyamnyaminc.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (254) 720 086126</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Global Headquarters</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> NyamNyam Inc. All rights reserved.</p>
+                <p>Built with ❤️ by the NyamNyam Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
