@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services | NyamNyam Inc.</title>
-    <meta name="description" content="Professional services in Proposal Writing, M&E Training, EMR Systems, Operational Research, Data Quality Systems, and more.">
+    <meta name="description" content="Explore NyamNyam Inc.'s comprehensive range of professional services.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        /* Additional styles for services page */
         .service-detail {
             margin-bottom: 4rem;
             padding: 3rem;
@@ -36,55 +37,19 @@
             display: flex;
             align-items: flex-start;
             gap: 1rem;
-            padding: 1rem;
-            background: #f8fafc;
-            border-radius: 8px;
-            transition: transform 0.3s;
-        }
-        
-        .feature-item:hover {
-            transform: translateY(-3px);
-            background: white;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         .feature-item i {
             color: var(--success);
             font-size: 1.2rem;
             margin-top: 0.2rem;
-            flex-shrink: 0;
-        }
-        
-        .feature-item h4 {
-            color: var(--dark);
-            margin-bottom: 0.3rem;
-            font-size: 1.1rem;
-        }
-        
-        .feature-item p {
-            color: var(--gray);
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-        
-        .service-note {
-            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-top: 2rem;
-            border-left: 4px solid var(--accent);
-        }
-        
-        .service-note i {
-            color: var(--accent);
-            margin-right: 0.5rem;
         }
         
         .pricing-table {
             background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
             padding: 2.5rem;
             border-radius: 12px;
-            margin-top: 3rem;
+            margin-top: 2rem;
         }
         
         .pricing-tier {
@@ -117,38 +82,6 @@
             font-size: 0.8rem;
             font-weight: 600;
         }
-        
-        .sector-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1.5rem;
-        }
-        
-        .sector-tag {
-            background: var(--primary);
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-        
-        .sector-tag.health {
-            background: #10b981;
-        }
-        
-        .sector-tag.ngo {
-            background: #8b5cf6;
-        }
-        
-        .sector-tag.business {
-            background: #f59e0b;
-        }
-        
-        .sector-tag.research {
-            background: #ef4444;
-        }
     </style>
 </head>
 <body>
@@ -156,7 +89,7 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="NyamNyam Inc." height="40">
+                <span class="logo-text">NyamNyam<span class="logo-inc">.Inc</span></span>
             </a>
             <button class="menu-toggle" id="menuToggle">
                 <i class="fas fa-bars"></i>
@@ -173,8 +106,8 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1>Our Professional Services</h1>
-            <p>Comprehensive solutions for NGOs, Healthcare, Research, and Business sectors</p>
+            <h1>Our Services</h1>
+            <p>Comprehensive solutions tailored to your business needs</p>
         </div>
     </section>
 
@@ -182,386 +115,153 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2>Comprehensive Service Portfolio</h2>
-                <p>End-to-end solutions from proposal development to impact assessment</p>
+                <h2>What We Offer</h2>
+                <p>From strategy to execution, we provide end-to-end solutions that drive results</p>
             </div>
 
-            <!-- Proposal & Report Writing -->
-            <div class="service-detail" id="proposals">
-                <h3>Proposal Writing & Technical Reports</h3>
-                <p>Professional grant writing and reporting services to help organizations secure funding, document impact, and maintain donor compliance.</p>
+            <!-- Digital Solutions -->
+            <div class="service-detail" id="digital">
+                <h3>Digital Solutions & Technology</h3>
+                <p>Transform your business with cutting-edge technology solutions designed for scalability, security, and performance.</p>
                 
                 <div class="service-features">
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Grant Proposal Development</h4>
-                            <p>Comprehensive research, writing, and submission of funding proposals to international donors, foundations, and government agencies.</p>
+                            <h4>Custom Software Development</h4>
+                            <p>Tailored applications built to solve your specific business challenges.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Technical & Donor Reports</h4>
-                            <p>Detailed project progress reports, impact assessments, financial reports, and compliance documentation.</p>
+                            <h4>Web & Mobile Applications</h4>
+                            <p>Responsive, user-friendly applications for all platforms and devices.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Abstract Writing</h4>
-                            <p>Professional abstract development for conferences, publications, and research proposals.</p>
+                            <h4>Cloud Migration & DevOps</h4>
+                            <p>Seamless transition to cloud infrastructure with optimized workflows.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Business & Strategic Plans</h4>
-                            <p>Comprehensive business planning, investment proposals, and organizational strategy development.</p>
+                            <h4>UI/UX Design</h4>
+                            <p>Intuitive interfaces that enhance user experience and engagement.</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag ngo">NGOs</span>
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag business">Business</span>
-                    <span class="sector-tag research">Research</span>
                 </div>
             </div>
 
-            <!-- Operational Research -->
-            <div class="service-detail" id="research">
-                <h3>Operational Research & Studies</h3>
-                <p>Design and implementation of research studies to generate evidence for program improvement and policy decisions.</p>
+            <!-- Business Strategy -->
+            <div class="service-detail" id="strategy">
+                <h3>Business Strategy & Consulting</h3>
+                <p>Data-driven insights and strategic planning to optimize operations and maximize growth potential.</p>
                 
                 <div class="service-features">
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Research Design</h4>
-                            <p>Development of research protocols, methodologies, and study frameworks for operational research.</p>
+                            <h4>Market Analysis</h4>
+                            <p>Comprehensive research to identify opportunities and competitive advantages.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Data Collection Tools</h4>
-                            <p>Design of questionnaires, interview guides, FGD protocols, and observation checklists.</p>
+                            <h4>Growth Strategy</h4>
+                            <p>Roadmaps for sustainable expansion and market penetration.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Ethical Compliance</h4>
-                            <p>Preparation of ethical review applications and compliance with research ethics standards.</p>
+                            <h4>Process Optimization</h4>
+                            <p>Streamline operations for maximum efficiency and cost savings.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Research Implementation</h4>
-                            <p>Fieldwork coordination, data collection supervision, and quality assurance.</p>
+                            <h4>Digital Transformation</h4>
+                            <p>Guidance through technological change and innovation adoption.</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="service-note">
-                    <i class="fas fa-lightbulb"></i>
-                    <strong>Specialization:</strong> Health systems research, program evaluation studies, needs assessments, and baseline/endline surveys.
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag ngo">NGOs</span>
-                    <span class="sector-tag research">Academic</span>
                 </div>
             </div>
 
-            <!-- M&E Systems & Training -->
-            <div class="service-detail" id="monitoring">
-                <h3>Monitoring & Evaluation Systems</h3>
-                <p>Development and implementation of robust M&E frameworks to track performance, measure impact, and inform decision-making.</p>
+            <!-- Professional Services -->
+            <div class="service-detail" id="consulting">
+                <h3>Professional Services & Support</h3>
+                <p>Ongoing support and specialized services to maintain your competitive edge.</p>
                 
                 <div class="service-features">
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>M&E Framework Development</h4>
-                            <p>Design of logical frameworks, theory of change, indicators, and M&E plans.</p>
+                            <h4>Technical Support</h4>
+                            <p>24/7 monitoring and maintenance for critical systems.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Capacity Building & Training</h4>
-                            <p>Customized M&E training programs for staff at all organizational levels.</p>
+                            <h4>Training & Development</h4>
+                            <p>Comprehensive training programs for your team.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Data Quality Systems</h4>
-                            <p>Development and implementation of data quality assurance frameworks and validation protocols.</p>
+                            <h4>Project Management</h4>
+                            <p>Expert oversight from conception to delivery.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-check-circle"></i>
                         <div>
-                            <h4>Performance Dashboards</h4>
-                            <p>Creation of interactive dashboards for real-time monitoring and reporting.</p>
+                            <h4>Compliance & Security</h4>
+                            <p>Ensure regulatory compliance and data protection.</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag ngo">NGOs</span>
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag business">Government</span>
-                </div>
-            </div>
-
-            <!-- Data Collection Systems -->
-            <div class="service-detail" id="datacollection">
-                <h3>Digital Data Collection Systems</h3>
-                <p>Implementation of mobile data collection solutions using modern tools for efficient and accurate data gathering.</p>
-                
-                <div class="service-features">
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Kobo Toolbox Development</h4>
-                            <p>Custom questionnaire design, form logic implementation, and Kobo deployment.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>ODK/ONA Solutions</h4>
-                            <p>Development of ODK forms, server setup, and data management systems.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>SurveyCTO Implementation</h4>
-                            <p>Enterprise-grade mobile data collection solutions with advanced features.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Enumerator Training</h4>
-                            <p>Comprehensive training on mobile data collection tools and best practices.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="service-note">
-                    <i class="fas fa-mobile-alt"></i>
-                    <strong>Platforms:</strong> Kobo Toolbox, ODK, ONA, SurveyCTO, CommCare, Fulcrum
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag research">Research</span>
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag ngo">NGOs</span>
-                </div>
-            </div>
-
-            <!-- EMR Systems -->
-            <div class="service-detail" id="emr">
-                <h3>EMR Systems Solutions</h3>
-                <p>Comprehensive Electronic Medical Records system implementation, training, and management for healthcare facilities.</p>
-                
-                <div class="service-features">
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>EMR Implementation</h4>
-                            <p>Complete setup, customization, and deployment of EMR systems tailored to facility needs.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>User Training & Support</h4>
-                            <p>Comprehensive training programs for healthcare staff on EMR usage, data entry, and system navigation.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>System Management</h4>
-                            <p>Ongoing maintenance, troubleshooting, updates, and technical support.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Data Migration</h4>
-                            <p>Secure transfer of patient records from paper-based or legacy systems to modern EMR platforms.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="service-note">
-                    <i class="fas fa-hospital"></i>
-                    <strong>Systems:</strong> OpenMRS, DHIS2, KenyaEMR, IQCare, and custom EMR solutions
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag health">Hospitals</span>
-                    <span class="sector-tag health">Clinics</span>
-                    <span class="sector-tag health">Health Centers</span>
-                </div>
-            </div>
-
-            <!-- Data Quality Systems -->
-            <div class="service-detail" id="dataquality">
-                <h3>Data Quality Assurance Systems</h3>
-                <p>Development and implementation of comprehensive data quality frameworks to ensure accuracy, completeness, and reliability of organizational data.</p>
-                
-                <div class="service-features">
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Data Quality Framework</h4>
-                            <p>Design of data quality standards, validation rules, and quality control procedures.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Quality Assurance Protocols</h4>
-                            <p>Development of routine data quality assessment tools and validation checklists.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Data Cleaning & Validation</h4>
-                            <p>Systematic data cleaning, validation, and preparation for analysis.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Performance Monitoring</h4>
-                            <p>Development of data quality dashboards and performance monitoring systems.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag ngo">NGOs</span>
-                    <span class="sector-tag business">Government</span>
-                    <span class="sector-tag research">Research</span>
-                </div>
-            </div>
-
-            <!-- Capacity Building -->
-            <div class="service-detail" id="training">
-                <h3>Capacity Building & Training Programs</h3>
-                <p>Customized training and skills development programs to enhance organizational capabilities and staff performance.</p>
-                
-                <div class="service-features">
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Technical Skills Training</h4>
-                            <p>Workshops on data management, statistical analysis, software usage, and digital tools.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Research Methods Training</h4>
-                            <p>Training in quantitative and qualitative research methodologies, data collection, and analysis.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Leadership Development</h4>
-                            <p>Management and leadership training for organizational growth and team development.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h4>Strategic Planning</h4>
-                            <p>Facilitation of strategic planning sessions and development of implementation roadmaps.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="service-note">
-                    <i class="fas fa-users"></i>
-                    <strong>Delivery:</strong> In-person workshops, online training, mentoring programs, and train-the-trainer sessions.
-                </div>
-                
-                <div class="sector-tags">
-                    <span class="sector-tag ngo">NGOs</span>
-                    <span class="sector-tag health">Healthcare</span>
-                    <span class="sector-tag business">Private Sector</span>
-                    <span class="sector-tag research">Academic</span>
                 </div>
             </div>
 
             <!-- Pricing Section -->
             <div class="pricing-table">
-                <h3 style="text-align: center; margin-bottom: 2rem; color: var(--dark);">Service Engagement Models</h3>
+                <h3 style="text-align: center; margin-bottom: 2rem;">Flexible Engagement Models</h3>
                 <div class="service-features">
                     <div class="pricing-tier">
                         <h4>Project-Based</h4>
-                        <p><strong>Perfect for:</strong> Specific, well-defined projects with clear deliverables</p>
-                        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--gray);">
+                        <p><strong>Perfect for:</strong> Specific, well-defined projects</p>
+                        <ul>
                             <li>Fixed scope & timeline</li>
-                            <li>Clear deliverables and milestones</li>
+                            <li>Clear deliverables</li>
                             <li>One-time investment</li>
-                            <li>Detailed project plan</li>
                         </ul>
-                        <div class="sector-tags">
-                            <span class="sector-tag">Research Studies</span>
-                            <span class="sector-tag">Proposal Writing</span>
-                        </div>
                     </div>
                     <div class="pricing-tier popular">
                         <div class="popular-badge">Most Popular</div>
                         <h4>Retainer Model</h4>
-                        <p><strong>Perfect for:</strong> Ongoing support, maintenance, and advisory services</p>
-                        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--gray);">
+                        <p><strong>Perfect for:</strong> Ongoing support & maintenance</p>
+                        <ul>
                             <li>Monthly fixed fee</li>
-                            <li>Priority support & consultation</li>
-                            <li>Regular system updates</li>
-                            <li>Capacity building sessions</li>
+                            <li>Priority support</li>
+                            <li>Regular updates</li>
                         </ul>
-                        <div class="sector-tags">
-                            <span class="sector-tag">EMR Management</span>
-                            <span class="sector-tag">M&E Support</span>
-                        </div>
                     </div>
                     <div class="pricing-tier">
                         <h4>Custom Enterprise</h4>
-                        <p><strong>Perfect for:</strong> Large-scale implementations and strategic partnerships</p>
-                        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--gray);">
-                            <li>Tailored solutions package</li>
-                            <li>Dedicated support team</li>
+                        <p><strong>Perfect for:</strong> Large-scale transformations</p>
+                        <ul>
+                            <li>Tailored solutions</li>
+                            <li>Dedicated team</li>
                             <li>Strategic partnership</li>
-                            <li>Comprehensive SLA</li>
                         </ul>
-                        <div class="sector-tags">
-                            <span class="sector-tag">Health Systems</span>
-                            <span class="sector-tag">Government</span>
-                        </div>
                     </div>
-                </div>
-                
-                <div class="service-note" style="margin-top: 2rem;">
-                    <i class="fas fa-info-circle"></i>
-                    <strong>Note:</strong> All services can be customized to meet your specific needs and budget. Contact us for a detailed proposal.
                 </div>
             </div>
         </div>
@@ -571,10 +271,10 @@
     <section class="cta">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Enhance Your Operations?</h2>
-                <p>Let's discuss how NyamNyam Inc. can help you achieve better results through our professional services.</p>
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss which services are right for you and create a custom solution.</p>
                 <a href="contact.html" class="btn btn-cta">
-                    <i class="fas fa-calendar-alt"></i> Schedule Free Consultation
+                    <i class="fas fa-calendar-alt"></i> Schedule Consultation
                 </a>
             </div>
         </div>
@@ -586,7 +286,7 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <h3>NyamNyam Inc.</h3>
-                    <p>Professional services in Proposal Writing, M&E Training, EMR Systems, and Operational Research based in Mombasa, Kenya.</p>
+                    <p>Delivering excellence through innovation, strategy, and execution.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -603,21 +303,14 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact Info</h4>
-                    <p><i class="fas fa-envelope"></i> nyamnyaminc@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> +254 720 086126</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Service Areas</h4>
-                    <p>Proposal Writing</p>
-                    <p>M&E Systems</p>
-                    <p>EMR Implementation</p>
-                    <p>Operational Research</p>
+                    <p><i class="fas fa-envelope"></i> hello@nyamnyam.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Global Headquarters</p>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; <span id="currentYear"></span> NyamNyam Inc. All rights reserved.</p>
-                <p>Professional Business Solutions | Mombasa, Kenya</p>
+                <p>Built with ❤️ by the NyamNyam Team</p>
             </div>
         </div>
     </footer>
